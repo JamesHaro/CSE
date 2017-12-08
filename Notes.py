@@ -29,5 +29,22 @@ print("Hello %s." % name)
 age = input ("how old are you? ")
 print("%s?! Wow, you are really old.")
 
+# Comparisons
+print(1 == 1)  # Is 1 equal to 1?
+print(1!= 2)  # Is 1 not equal to 2?
+print(10 <= 15)
+print(not False)
+
+# Recasting
+
+c = '1'
+print(c == 1)
+print(int(c) == 1)  # Both are ints
+print(c == str(1))  # Both are strings
+
+# The input command AlWAYS gives a strings
+
+
+
 
 
